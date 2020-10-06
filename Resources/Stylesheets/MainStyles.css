@@ -90,7 +90,7 @@ a.MCBreadcrumbsLink:visited
 
 a.MCBreadcrumbsLink:hover
 {
-	color: #19b9f3;
+	color: #072e4a;
 }
 
 MadCap|breadcrumbsProxy
@@ -103,7 +103,7 @@ MadCap|breadcrumbsProxy
 
 MadCap|xref
 {
-	color: #2D8DCC;
+	color: #022f4f;
 	font-weight: bold;
 	mc-format: '{para}';
 	text-decoration: underline;
@@ -111,7 +111,7 @@ MadCap|xref
 
 MadCap|xref:hover
 {
-	color: #19b9f3;
+	color: #072e4a;
 }
 
 MadCap|dropDown
@@ -122,7 +122,7 @@ MadCap|dropDown
 
 MadCap|dropDownHotspot
 {
-	color: #19b9f3;
+	color: #072e4a;
 	font-weight: bold;
 }
 
@@ -131,6 +131,7 @@ MadCap|dropDownHotspot
 .main-section /*This style applies the grey background. This HTML element is not on a master page, it is used at compile time.*/
 {
 	background: #ececec;
+	padding: 1%;
 }
 
 nav.title-bar /*Adds transparency to the top navigation bar*/
@@ -170,7 +171,7 @@ Styles after this point are styles that are for specific mediums. If any additio
 {
 	.main-section > .outer-row	/* Removes the padding around the topic container in mobile */
 	{
-		padding: 0;
+		padding: 1%;
 	}
 
 }
