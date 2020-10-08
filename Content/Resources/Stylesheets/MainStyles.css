@@ -162,7 +162,7 @@ Styles after this point are styles that are for specific mediums. If any additio
 [@media mobile] declares styles that will apply when the screen is in mobile view
 ===========================================================================================================================================================*/
 
-@media only screen and (max-width: 1277px)
+@media only screen and (max-width: 1279px)
 {
 	
 }

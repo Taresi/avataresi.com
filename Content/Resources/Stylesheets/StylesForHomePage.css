@@ -22,8 +22,8 @@ EXAMPLE: Since the Topic/Banner image is at the top of the home page, it will be
 body
 {
 	font-family: Arial;
+	line-height: 1.5em;
 	background-color: #e4e8e8;
-	line-height: 0em;
 }
 
 h1
@@ -111,6 +111,7 @@ html.home-page
 
 nav.title-bar
 {
+	/*if I delete the position element here, it separates the navbar and the cover image but does not hide the cover image under the navbar*/
 	position: absolute;
 	width: 100%;
 	opacity: 0.8;
@@ -127,8 +128,8 @@ div.topic-hero	/*This is the Hero/Banner on the Home Page - To replace the banne
 	padding-bottom: 150px;
 	padding-top: 150px;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-	background-position: center;
 	background-image: url('../Images/Assets/HeroStockImages/HeroImage-1.jpg');
+	background-position: center;
 }
 
 /*==Home Tiles section==*/
@@ -383,9 +384,9 @@ Styles after this point are styles that are for specific mediums. If any additio
 [@media mobile] declares styles that will apply when the screen is in mobile view
 ===========================================================================================================================================================*/
 
-@media only screen and (max-width: 1277px)
+@media only screen and (max-width: 1279px)
 {
-	div.home-tiles > div:nth-child(1)
+	.home-tiles > div:nth-child(1)
 	{
 		width: 33.33333%;
 		margin-left: 10%;
