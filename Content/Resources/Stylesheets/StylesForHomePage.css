@@ -22,8 +22,8 @@ EXAMPLE: Since the Topic/Banner image is at the top of the home page, it will be
 body
 {
 	font-family: Arial;
-	line-height: 1.5em;
 	background-color: #e4e8e8;
+	line-height: 0em;
 }
 
 h1

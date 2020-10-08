@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2020 Generated HTML5 - Top Navigation.fltar" Date="2020-10-08T11:26:37.8625889-04:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2020 r2 Generated HTML5 - Top Navigation.fltar" Date="2020-10-08T17:44:55.7159591-04:00">
     <Messages>Compiling target HTML5 - Top Navigation...
 Removing previously generated content...
 Loading skin info...
@@ -120,14 +120,12 @@ Writing search entry cache...
 Generating final output...
 Generated Skins\Default\Stylesheets\TextEffects.micro-content.css
 Generated Skins\Default\Stylesheets\Topic.micro-content.css
-Generated Default.htm
+Generated index.htm
 Saving result set...
 Ignored Compiler Warnings: 28
-Output generated in 33 second(s).
+Output generated in 20 second(s).
 
 Done
-Publishing target HTML5 - Top Navigation...
-Publish skipped: No destination selected.
 Saving log to "D:\avataresi.com\Soledad\Output\Output\HTML5 - Top Navigation\HTML5 - Top Navigation.mclog"
 </Messages>
     <Warnings>
@@ -138,7 +136,5 @@ Saving log to "D:\avataresi.com\Soledad\Output\Output\HTML5 - Top Navigation\HTM
         <LogEntry File="../../../Content/Home.htm" Message="Missing linked source file: D:\avataresi.com\Soledad\Content\Resume.htm&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 - Top Navigation" ErrorID="10001" />
         <LogEntry File="../../../Content/Resources/Images/Assets/PlaceholderLogo/ContactFrom_v15/ContactFrom_v15/index.html" Message="Topic contains invalid XHTML.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="HTML5 - Top Navigation" ErrorID="20058" />
     </Warnings>
-    <Errors>
-        <LogEntry File="../../../Project/Targets/HTML5 - Top Navigation.fltar" Message="Publish skipped: No destination selected.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Publisher" Target="HTML5 - Top Navigation" ErrorID="140001" />
-    </Errors>
+    <Errors />
 </MadCapLog>
