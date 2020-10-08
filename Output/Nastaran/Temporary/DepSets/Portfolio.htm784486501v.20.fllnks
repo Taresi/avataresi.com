@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/AI Banking.jpg" />
+    <Link
+      Url="Content/Portfolio/AI in FinTech, a Whitepaper by Ava Taresi.pdf" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/SEO.jpg" />
+    <Link
+      Url="Content/Portfolio/SEO- A Gettingg Started Guide for Blogger.pdf" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/dolibarr_256x256.png" />
+    <Link
+      Url="Content/Portfolio/Dolibarr UG Book.pdf" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/MadCap.png" />
+    <Link
+      Url="Content/Portfolio/AvaTaresi.com" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/AI Banking.jpg" />
+    <Link
+      Url="Content/Portfolio/AI in FinTech, a Whitepaper by Ava Taresi.pdf" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/SEO.jpg" />
+    <Link
+      Url="Content/Portfolio/SEO- A Gettingg Started Guide for Blogger.pdf" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/dolibarr_256x256.png" />
+    <Link
+      Url="Content/Portfolio/Dolibarr UG Book.pdf" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/MadCap.png" />
+    <Link
+      Url="Content/Portfolio/AvaTaresi.com" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

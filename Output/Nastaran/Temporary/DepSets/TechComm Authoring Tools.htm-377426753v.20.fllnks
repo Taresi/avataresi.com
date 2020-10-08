@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="https://instrktiv.com/en/technical-writing-tools" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/MadCap.png" />
+    <Link
+      Url="http://madcapsoftware.com/" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/GitHub.png" />
+    <Link
+      Url="https://github.com/" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/FrameMaker.jpg" />
+    <Link
+      Url="https://www.adobe.com/" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/snagit.jpg" />
+    <Link
+      Url="https://www.techsmith.com/screen-capture.html" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/Captivate.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/RoboHelp.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/photoshop.jpg" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/Indesign.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/atom.png" />
+    <Link
+      Url="https://atom.io/" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/office.jpg" />
+    <Link
+      Url="http://www.microsoft.com/" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="https://instrktiv.com/en/technical-writing-tools" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/MadCap.png" />
+    <Link
+      Url="http://madcapsoftware.com/" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/GitHub.png" />
+    <Link
+      Url="https://github.com/" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/FrameMaker.jpg" />
+    <Link
+      Url="https://www.adobe.com/" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/snagit.jpg" />
+    <Link
+      Url="https://www.techsmith.com/screen-capture.html" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/Captivate.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/RoboHelp.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/photoshop.jpg" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/Indesign.png" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/atom.png" />
+    <Link
+      Url="https://atom.io/" />
+    <Link
+      Url="Content/Resources/Images/Assets/HeroStockImages/office.jpg" />
+    <Link
+      Url="http://www.microsoft.com/" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>
