@@ -8,12 +8,12 @@ Hello! If this is your first time looking at a stylesheet within the text editor
 
 For help with MadCap Flare go to Help Ribbon > Topics Section > Open Help. Alternatively visit the Flare Online Help at help.madcapsoftware.com
 
-If you have any questions regarding how to work with this stylesheet or template project, please contact MadCap Technical Support. 
+If you have any questions regarding how to work with this stylesheet or template project, please contact MadCap Technical Support.
 https://www.madcapsoftware.com/support/contact-options.aspx
 
 NOTE: Generally, this stylesheet has elements listed out in the order that they appear in the topic from top to bottom. The exception are General styles which are at the top and the stylesheet mediums which are at the bottom.
 
-EXAMPLE: Since the Topic/Banner image is at the top of the home page, it will be listed closer to the top of this stylesheet. While, the footer will be written towards the bottom. 
+EXAMPLE: Since the Topic/Banner image is at the top of the home page, it will be listed closer to the top of this stylesheet. While, the footer will be written towards the bottom.
 
 ===========================================================================================================================================================*/
 
@@ -140,7 +140,7 @@ div.home-tiles-container
 	margin-top: -150px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 75%;
+	width: 85%;
 }
 
 div.home-tiles	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
@@ -180,19 +180,19 @@ div.home-tiles > div
 
 div.home-tiles > div:nth-child(1)
 {
-	width: 22.22%;
-	margin-left: 12.667%;
+	width: 26%;
+	margin-left: 12%;
 }
 
 div.home-tiles > div:nth-child(2)
 {
-	width: 22.22%;
+	width: 26%;
 	margin-left: 2%;
 }
 
 div.home-tiles > div:nth-child(3)
 {
-	width: 22.22%;
+	width: 26%;
 	margin-left: 2%;
 }
 
@@ -559,4 +559,3 @@ Styles after this point are styles that are for specific mediums. If any additio
 		width: 100%;
 	}
 }
-
