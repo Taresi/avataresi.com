@@ -111,7 +111,6 @@ html.home-page
 
 nav.title-bar
 {
-	/*if I delete the position element here, it separates the navbar and the cover image but does not hide the cover image under the navbar*/
 	position: relative;
 	width: 100%;
 	opacity: 0.8;
@@ -169,7 +168,7 @@ div.home-tiles > div
 	float: left;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	height: 300px;
+	height: 400px;
 	background-color: rgba(7,46,74,1);
 	padding-top: 20px;
 	padding-bottom: 20px;
