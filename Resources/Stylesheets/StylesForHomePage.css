@@ -111,37 +111,23 @@ html.home-page
 
 nav.title-bar
 {
+	/*if I delete the position element here, it separates the navbar and the cover image but does not hide the cover image under the navbar*/
 	position: relative;
 	width: 100%;
 	opacity: 0.8;
-	overflow: hidden;
 }
 
 /*==Home Page Hero Section==*/
-
-div.topic-hero	/*This is the Hero/Banner on the Home Page - To replace the banner image with your own, change background-image property*/
-{
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 20px;
-	height: 500px;
-	padding-bottom: 150px;
-	padding-top: 150px;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-	background-image: url('../Images/Assets/HeroStockImages/HeroImage-1.jpg');
-	background-position: center;
-}
 
 /*==Home Tiles section==*/
 
 div.home-tiles-container
 {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	margin-top: -150px;
+	padding: 50px;
+	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 85%;
+	width: 100%;
 }
 
 div.home-tiles	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
@@ -169,7 +155,7 @@ div.home-tiles > div
 	float: left;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	height: 400px;
+	height: 300px;
 	background-color: rgba(7,46,74,1);
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -181,19 +167,19 @@ div.home-tiles > div
 
 div.home-tiles > div:nth-child(1)
 {
-	width: 26%;
-	margin-left: 12%;
+	width: 22.22%;
+	margin-left: 12.667%;
 }
 
 div.home-tiles > div:nth-child(2)
 {
-	width: 26%;
+	width: 22.22%;
 	margin-left: 2%;
 }
 
 div.home-tiles > div:nth-child(3)
 {
-	width: 26%;
+	width: 22.22%;
 	margin-left: 2%;
 }
 
@@ -262,7 +248,7 @@ div.info-section::after
 
 div.info-section > div
 {
-	float: center;
+	float: left;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
