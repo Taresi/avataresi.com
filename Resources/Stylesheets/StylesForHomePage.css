@@ -262,7 +262,7 @@ div.info-section::after
 
 div.info-section > div
 {
-	float: left;
+	float: center;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
