@@ -1,28 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2020 r2 Generated HTML5 - Top Navigation.fltar" Date="2020-10-08T20:25:28.4352295-04:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2020 r2 Generated HTML5 - Top Navigation.fltar" Date="2020-10-08T22:19:02.3634803-04:00">
     <Messages>Publishing target HTML5 - Top Navigation...
 Connecting...
 Downloading log ...
 Uploading changed files...
-Uploading Skins/Default/Stylesheets/Topic.micro-content.css... succeeded.
-Uploading Skins/Default/Stylesheets/Topic.css... succeeded.
 Uploading Resources/Scripts/require.config.js... succeeded.
-Uploading Resources/Images/Assets/HeroStockImages/HeroImage-1.jpg... succeeded.
-Uploading Portfolio/Portfolio.htm... succeeded.
 Uploading Data/Tocs/Master_Chunk0.js... succeeded.
-Uploading Data/SearchUrl_Chunk0.js... succeeded.
-Uploading Data/SearchTopic_Chunk0.js... succeeded.
-Uploading Data/SearchStem_Chunk0.js... succeeded.
-Uploading Data/SearchPhrase_Chunk0.js... succeeded.
 Uploading Data/HelpSystem.xml... succeeded.
 Uploading Data/HelpSystem.js... succeeded.
 Uploading index.mcwebhelp... succeeded.
-Uploading AboutMe.htm... succeeded.
-Uploading Resources/Images/Untitled.png... succeeded.
-Uploading Resources/Images/Untitled_352x288.png... succeeded.
-Uploading Resources/Images/Assets/HeroStockImages/HeroImage-11.jpg... succeeded.
-Uploading Resources/Images/Assets/HeroStockImages/HeroImage-122.jpg... succeeded.
-Uploading Resources/Images/Assets/HeroStockImages/HeroImage11.jpg... succeeded.
 Removing old files...
 Uploading log ...
 Publish complete.

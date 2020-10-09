@@ -387,11 +387,6 @@
 	right: 0;
 }
 
-.micro-response .img
-{
-	max-width: 100%;
-}
-
 .micro-response div.MCBreadcrumbsBox_0
 {
 	border-bottom: none;
@@ -402,6 +397,11 @@
 	border-bottom-color: black;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
+}
+
+.micro-response .img
+{
+	max-width: 100%;
 }
 
 .micro-response .dropDownHotspot

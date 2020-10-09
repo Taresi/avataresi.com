@@ -112,7 +112,7 @@ html.home-page
 nav.title-bar
 {
 	/*if I delete the position element here, it separates the navbar and the cover image but does not hide the cover image under the navbar*/
-	position: absolute;
+	position: relative;
 	width: 100%;
 	opacity: 0.8;
 }

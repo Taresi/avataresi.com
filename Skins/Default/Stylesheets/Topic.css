@@ -387,11 +387,6 @@ a.glossaryTerm
 	right: 0;
 }
 
-.img
-{
-	max-width: 100%;
-}
-
 div.MCBreadcrumbsBox_0
 {
 	border-bottom: none;
@@ -402,6 +397,11 @@ div.MCBreadcrumbsBox_0
 	border-bottom-color: black;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
+}
+
+.img
+{
+	max-width: 100%;
 }
 
 .dropDownHotspot
