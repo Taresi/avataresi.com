@@ -224,36 +224,36 @@
 
 	ul.menu._Skins_SideMenu.mc-component li > a:hover
 	{
-		background-color: #0e5990;
+		background-color: #f0f8ff;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul > li > a:hover
 	{
 		background-repeat: repeat;
-		background-color: #87cefa;
+		background-color: #f0f8ff;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul ul > li > a:hover
 	{
 		background-repeat: repeat;
-		background-color: #87cefa;
+		background-color: #f0f8ff;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul ul ul > li > a:hover
 	{
 		background-repeat: repeat;
-		background-color: #87cefa;
+		background-color: #f0f8ff;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component ul ul ul ul > li > a:hover
 	{
 		background-repeat: repeat;
-		background-color: #87cefa;
+		background-color: #f0f8ff;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component li > a.selected:hover
 	{
-		background-color: #0e5990;
+		background-color: #f0f8ff;
 	}
 }
 

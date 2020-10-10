@@ -237,7 +237,7 @@ ul.sub-menu.focus-within-expanded
 
 ul.navigation li:hover
 {
-	background-color: transparent;
+	background-color: #f0f8ff;
 }
 
 ul.navigation ul > li
