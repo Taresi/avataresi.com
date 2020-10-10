@@ -73,7 +73,7 @@ button.topnav-expand
 	border: none;
 	color: inherit;
 	font-size: inherit;
-	background-color: transparent;
+	background-color: #f0f8ff;
 }
 
 button.topnav-expand-toplevel
@@ -105,13 +105,12 @@ ul.navigation
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: 0;
-	background-repeat: repeat;
-	background-position: center center;
 	color: #ffffff;
 	font-size: 16px;
 	font-weight: normal;
 	padding-left: 20px;
 	padding-right: 20px;
+	background-color: transparent;
 }
 
 ul.navigation,
@@ -127,7 +126,7 @@ ul.navigation ul
 	margin: 0;
 	padding: 10px 0 10px 0;
 	position: absolute;
-	background-color: #686868;
+	background-color: #4682b4;
 }
 
 ul.navigation > li > ul.openLeft
@@ -152,7 +151,7 @@ ul.navigation > li.has-children:after
 	bottom: 0;
 	left: 50%;
 	margin-left: -8px;
-	border-bottom-color: #686868;
+	border-bottom-color: #4682b4;
 }
 
 ul.navigation ul,
@@ -171,7 +170,7 @@ ul.navigation ul ul
 {
 	top: 0;
 	left: 100%;
-	background-color: #686868;
+	background-color: #4682b4;
 }
 
 ul.navigation ul ul.openLeft
@@ -237,7 +236,7 @@ ul.sub-menu.focus-within-expanded
 
 ul.navigation li:hover
 {
-	background-color: #f0f8ff;
+	background-color: #4682b4;
 }
 
 ul.navigation ul > li
@@ -258,7 +257,7 @@ ul.navigation ul > li > a
 
 ul.navigation ul > li:hover
 {
-	background-color: #4b4b4b;
+	background-color: #072e4a;
 }
 
 ul.navigation ul > li.has-children > a:after
@@ -1322,7 +1321,7 @@ ul.navigation ul ul a
 
 ul.navigation ul ul ul
 {
-	background-color: #686868;
+	background-color: #4682b4;
 }
 
 ul.navigation ul ul ul a
@@ -1332,7 +1331,7 @@ ul.navigation ul ul ul a
 
 ul.navigation ul ul ul ul
 {
-	background-color: #686868;
+	background-color: #4682b4;
 }
 
 ul.navigation ul ul ul ul a
@@ -1378,7 +1377,7 @@ ul.navigation ul > li.is-expanded > a
 
 ul.navigation ul ul > li:hover
 {
-	background-color: #4b4b4b;
+	background-color: #072e4a;
 }
 
 ul.navigation ul ul > li > a:hover
@@ -1393,7 +1392,7 @@ ul.navigation ul ul > li.is-expanded > a
 
 ul.navigation ul ul ul > li:hover
 {
-	background-color: #4b4b4b;
+	background-color: #072e4a;
 }
 
 ul.navigation ul ul ul > li > a:hover
@@ -1408,7 +1407,7 @@ ul.navigation ul ul ul > li.is-expanded > a
 
 ul.navigation ul ul ul ul > li:hover
 {
-	background-color: #4b4b4b;
+	background-color: #072e4a;
 }
 
 ul.navigation ul ul ul ul > li > a:hover
