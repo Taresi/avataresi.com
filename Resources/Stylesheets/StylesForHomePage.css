@@ -167,19 +167,19 @@ div.home-tiles > div
 
 div.home-tiles > div:nth-child(1)
 {
-	width: 22.22%;
-	margin-left: 12.667%;
+	width: 30%;
+	margin-left:6%;
 }
 
 div.home-tiles > div:nth-child(2)
 {
-	width: 22.22%;
+	width: 30%;
 	margin-left: 2%;
 }
 
 div.home-tiles > div:nth-child(3)
 {
-	width: 22.22%;
+	width: 30%;
 	margin-left: 2%;
 }
 
@@ -209,7 +209,7 @@ p.tile-content
 {
 	color: #ffffff;
 	font-size: 0.9em;
-	text-align: center;
+	text-align: left;
 }
 
 div.home-tiles a	/*Complex Selector: Links within the home tiles will have the following properties*/
