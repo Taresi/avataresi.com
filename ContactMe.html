@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
-$action=$_REQUEST['action'];
-if ($action=="")    /* display the contact form */
-    {
-    ?>
 <head>
 	<title>Ava Taresi- Contact Me</title>
 	<meta charset="UTF-8">
@@ -83,29 +78,49 @@ if ($action=="")    /* display the contact form */
 					</button>
 				</div>
 			</form>
+			<?php
+
+$errors = ”;
+
+$myemail = ‘a.taresi@aol.com’
+
+.if(
+empty($_POST[‘name’]) ||
+empty($_POST[’email’]) ||
+
+{
+$errors .= “\n Error: all fields are required”;
+}
+
+$name = $_POST[‘name’];
+$email_address = $_POST[’email’];
+
+if (!preg_match(
+
+“/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i”, $email_address))
+{
+
+$errors .= “\n Error: Invalid email address”;
+}
+
+if( empty($errors))
+{
+
+$to = $myemail;
+$email_subject = “Contact form submission: $name”;
+$email_body = “You have received a new message. “.
+” Here are the details:\n Name: $name \n “.
+“Email: $email_address\n Message \n $message”;
+$headers = “From: $myemail\n”;
+$headers .= “Reply-To: $email_address”;
+mail($to,$email_subject,$email_body,$headers);
+//redirect to the ‘thank you’ page
+header(‘Location: contact-form-thank-you.html’);
+}
+
+?>
 		</div>
 	</div>
-	<?php
-    }
-else                /* send the submitted data */
-    {
-    $name=$_REQUEST['name'];
-    $email=$_REQUEST['email'];
-    $message=$_REQUEST['message'];
-    if (($name=="")||($email=="")||($message==""))
-        {
-        echo "All fields are required, please fill <a href=\"\">the form</a> again.";
-        }
-    else{
-        $from="From: $name<$email>\r\nReturn-path: $email";
-        $subject="Message sent using your contact form";
-        mail("a.taresi@aol.com", $subject, $message, $from);
-        echo "Email sent!";
-        }
-    }
-?>
-
-
 	<div id="dropDownSelect1"></div>
 
 <!--===============================================================================================-->
