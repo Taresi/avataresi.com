@@ -44,7 +44,7 @@
 				</span>
 			</div>
 
-			<form action="mailto:a.taresi@aol.com" class="contact100-form validate-form">
+			<form class="contact100-form validate-form">
 				<div class="wrap-input100 validate-input" data-validate="Name is required">
 					<span class="label-input100">Full Name:</span>
 					<input class="input100" type="text" name="name" placeholder="Enter full name">
@@ -80,6 +80,24 @@
 			</form>
 		</div>
 	</div>
+	<?PHP
+
+require_once("./include/fgcontactform.php");
+$formproc = new FGContactForm();
+$formproc->AddRecipient('a.taresi@aol.com'); 
+// this link: http://tinyurl.com/randstr
+// and put it here
+$formproc->SetFormRandomKey('z9sr8EwW6VHAY4c');
+
+if(isset($_POST['submitted']))
+{
+   if($formproc->ProcessForm())
+   {
+        $formproc->RedirectToURL("thank-you.html");
+   }
+}
+
+?>
 	<div id="dropDownSelect1"></div>
 
 <!--===============================================================================================-->
